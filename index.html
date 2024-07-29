@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <article>
+            <div class="card">
+                <div class="icons">
+                    <div class="icon-back red">
+                        <button></button>
+                    </div>
+                    <div class="icon-back yellow">
+                        <button></button>
+                    </div>
+                    <div class="icon-back green">
+                        <button></button>
+                    </div>
+                </div>
+                <div class="screen">
+                    <p id="screen">Calculadora Inteligente</p>
+                </div>
+                <div class="buttons-calc">
+                    <div class="row">
+                        <button class="botonnum" id="7" value="7">7</button>
+                        <button class="botonnum" id="8" value="8">8</button>
+                        <button class="botonnum" id="9" value="9">9</button>
+                        <button class="botonOP" id="/" value="/">/</button>
+                    </div>
+                    <div class="row">
+                        <button class="botonnum" id="4" value="4">4</button>
+                        <button class="botonnum" id="5" value="5">5</button>
+                        <button class="botonnum" id="6" value="6">6</button>
+                        <button class="botonOP" id="*" value="*">*</button>
+                    </div>
+                    <div class="row">
+                        <button class="botonnum" id="1" value="1">1</button>
+                        <button class="botonnum" id="2" value="2">2</button>
+                        <button class="botonnum" id="3" value="3">3</button>
+                        <button class="botonOP" id="-" value="-">-</button>
+                    </div>
+                    <div class="row">
+                        <button class="botonnum" id="0" value="0">0</button>
+                        <button class="botonOP" id="." value=".">.</button>
+                        <button class="botonOP" id="=" value="=" onclick="Calcular()">=</button>
+                        <button class="botonOP" id="+" value="+">+</button>
+                    </div>
+                    <div class="start-button">
+                        <button id="start" onclick="Iniciar()">Start</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <script src="JS/index.js"></script>
+</body>
+</html>

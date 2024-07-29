@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+.card{
+    background-color: #f3f0f0;
+    display: flex;
+    flex-direction: column;
+    width:520px;
+    height: 640px;
+    text-align: center;
+    padding: 0px 13px 10px 13px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 6px rgb(211, 203, 203);
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-back button{
+    width: 10px;
+    height: 10px;
+    margin: 10px 5px 10px 5px;
+    border-radius: 10px;
+    border: .4px solid ;
+}
+
+.red button{
+    background-color: red;
+}
+
+.red button:hover{
+    transform: scale(1.07);
+    transition: .2s all;
+}
+
+.yellow button{
+    background-color: rgb(243, 243, 18);
+}
+
+.yellow button:hover{
+    transform: scale(1.15);
+    transition: .1s all;
+}
+
+.green button{
+    background-color: green;
+}
+
+.green button:hover{
+    transform: scale(1.07);
+    transition: .2s all;
+}
+
+
+.screen{
+    background-color: rgb(73, 72, 71);
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.screen p{
+    text-align: right;
+    color: white;
+}
+
+
+
+.buttons-calc{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.buttons-calc .row button{
+    padding: 35px;
+    margin: 0px 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(136, 127, 127);
+    font-size: 16px;
+}
+
+.buttons-calc .row button:hover{
+    transform: scale(1.07);
+    transition: .2s all;
+    
+}
+
+.start-button{
+    margin-top: 10px;
+}
+
+.start-button button{
+    width: 70%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(136, 127, 127);
+}
+
+.start-button button:hover{
+    transform: scale(1.07);
+    transition: .2s all;
+    
+}
+
